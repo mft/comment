@@ -8,6 +8,8 @@ The `comment` Python library provides an explicit object for comments.
 pip install comment
 ```
 
+(not yet)
+
 ## Usage
 
 You can use `Comment` as a context. It does nothing but expell all comments
