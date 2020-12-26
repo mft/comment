@@ -32,7 +32,7 @@ For example,
 DAY = 60 * 60 * 24 # seconds
 ```
 
-The comment "# seconds" explain `DAY` constant that it has the unit second.
+The comment "# seconds" explains `DAY` constant that it has the unit second.
 The scope of this comment is this one line, inside module scope maybe.
 
 A comment can be replaced with an object which does not have any effects on
