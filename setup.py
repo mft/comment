@@ -37,6 +37,6 @@ setup(
     ],
     keywords='comment',
     package_dir={'': 'src'},
-    py_module=["comment"],
+    packages=["comment"],
     python_requires='>=2.7',
 )
