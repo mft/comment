@@ -5,10 +5,8 @@ The `comment` Python library provides an explicit object for comments.
 ## Install
 
 ```
-pip install comment
+pip install comment-object
 ```
-
-(not yet)
 
 ## Usage
 

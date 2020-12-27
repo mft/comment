@@ -1,5 +1,5 @@
 """
-setup for comment
+setup for comment-object
 """
 
 from setuptools import setup, find_packages
@@ -18,14 +18,14 @@ except ImportError:
 
 
 setup(
-    name='comment',
+    name='comment-object',
     version='0.0.0',
     description='An explicit object for comments',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/mft/comment',
-    author='MATSUI, Tetsushi',
-    author_email='matsuitetsushi@gmail.com',
+    author='MATSUI Tetsushi',
+    author_email='matsui.tetsushi@gmail.com',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
