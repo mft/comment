@@ -3,12 +3,19 @@ setup for comment
 """
 
 from setuptools import setup, find_packages
-import pathlib
 
-here = pathlib.Path(__file__).parent.resolve()
+try:
+    import pathlib
+    here = pathlib.Path(__file__).parent.resolve()
+    # Get the long description from the README file
+    long_description = (here / 'README.md').read_text(encoding='utf-8')
+except ImportError:
+    import os
+    here = os.path.dirname(__file__)
+    readme_filepath = os.path.join(here, "README.md")
+    with open(readme_filepath, "r") as readme:
+        long_description = readme.read()
 
-# Get the long description from the README file
-long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='comment',
